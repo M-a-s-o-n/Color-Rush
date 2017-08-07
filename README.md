@@ -1,1 +1,1 @@
-"# Color-Rush" 
+Color Rush
