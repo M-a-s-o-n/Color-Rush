@@ -1,0 +1,30 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg"
+  	xmlns:xlink="http://www.w3.org/1999/xlink" style="position:fixed; top:0; left:0; height:100%; width:100%; user-select: none;">
+    <style type="text/css">
+      @font-face {
+        font-family: zorque;
+        src: url('./zorque.ttf');
+      }
+    </style>
+  	<!--Background-->
+  	<rect style="fill: #FFFFFF;" width="100%" height="100%" id="table"/>
+  	<g id="holder"></g>
+    <circle cx="50%" cy="85%" r="3%" style="fill: #000000" id="yC"/>
+    <circle cx="0" cy="0" r="2%" style="display: none;" id="dot"/>
+    <rect style="fill: transparent;" width="100%" height="100%" id="screen"/>
+    <g id="startScreen" style="display: inherit;" x="0" y="0" width="100%" height="100%">
+      <text x="50%" y="25%" style="font-family: 'zorque'; font-size: 10vh" text-anchor="middle">Color</text>
+      <text x="50%" y="33%" style="font-family: 'zorque'; font-size: 10vh" text-anchor="middle">Rush</text>
+    </g>
+    <g id="score" style="display: none;">
+      <text x="50%" y="15%" style="font-family: 'zorque'; font-size: 10vh" text-anchor="middle" id="ticker">20</text>
+    </g>
+    <g id="deathScreen" style="display: none;">
+      <text x="50%" y="25%" style="font-family: 'zorque'; font-size: 10vh" text-anchor="middle">Game</text>
+      <text x="50%" y="33%" style="font-family: 'zorque'; font-size: 10vh" text-anchor="middle">Over</text>
+      <text x="50%" y="50%" style="font-family: 'zorque'; font-size: 10vh" text-anchor="middle" id="time"></text>
+      <text x="50%" y="62%" style="font-family: 'zorque'; font-size: 5vh" text-anchor="middle">HighScore</text>
+      <text x="50%" y="70%" style="font-family: 'zorque'; font-size: 5vh" text-anchor="middle" id="highScore"></text>
+    </g>
+  	<script xlink:href="main.script.js"></script>
+</svg>
